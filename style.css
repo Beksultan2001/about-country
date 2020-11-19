@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* background-color: #BDBEBE; */
+}
+.main{
+    display: none;
+}
+.main.show{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container{
+    display: block;
+    position: relative;
+    width: 316px;
+    margin-left: 70px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+    background: #e8ecec;
+    /* opacity: 0.5; */
+    mix-blend-mode: hard-light;
+    
+}
+.flag{
+    width: 316px;
+    height: 300px;
+    /* background: url(flag.jpg) center center/cover no-repeat; */
+
+}
+.country{
+    margin-top: 29px;
+    margin-left: 40px;
+    font-family: Abhaya Libre;
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+}
+.try{
+    margin-left: 40px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+}
+.list{
+    list-style: none;
+    position: relative;
+    margin-left: 30px;
+}
+.kerek{
+    margin-top: 19px;
+}
+.li1{
+    margin-top: 19px;
+}
+.one::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    top: 0;
+    background: url(both.png) center center/cover no-repeat;
+}
+.li1::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    top: 0;
+    background: url(both.png) center center/cover no-repeat;
+}
+body{
+    background-color: #BDBEBE;
+
+}
+.koremiz{
+    margin-top: 40px;
+}
+.justtry{
+    margin-left: 70px;
+    position: absolute;
+    height: 30px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.two::before{
+    margin-top: 0px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    background: url(speak.png) center center/cover no-repeat;
+}
+.three::before{
+    margin-top: 0px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    background: url(dollar.jpg) center center/cover no-repeat;
+}
+
+.last{
+    display: none;
+}
+/* .last.show{
+    display: flex;
+} */
